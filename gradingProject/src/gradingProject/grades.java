@@ -24,7 +24,7 @@ public class grades {
 			testMult = (testScores[i] * testWeights[i]);
 			testTotal += testMult;
 			testSum += testTotal;
-			testAvg = testSum / 6;
+			testAvg = testSum / testScores.length;
 			
 		}
 		
